@@ -1,0 +1,30 @@
+.app {
+  display: flex;
+  flex-direction: row;
+}
+
+.character-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.character-card {
+  flex: 1 1 20%;
+  margin: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.character-card img {
+  width: 100%;
+  height: auto;
+}
+
+.character-detail {
+  width: 30%;
+  padding: 20px;
+  border-left: 1px solid #ccc;
+  overflow-y: auto;
+}
+
